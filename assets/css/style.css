@@ -1,0 +1,23 @@
+.title {
+  background-color: rgb(153, 221, 221);
+  padding: 5px;
+}
+
+#titlepage {
+  font: silver;
+}
+table {
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  margin-top: -8px;
+}
+.content {
+  padding: 15px;
+}
+
+.trainForm {
+  border-radius: 5px;
+  border-color: darkblue;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
