@@ -45,6 +45,7 @@ $(document).ready(function() {
       trainTime: newTime,
       frequency: newFrequency
     });
+    document.getElementById("tForm").reset();
   });
   database.ref().on("child_added", function(snapshot) {
     var newRow = $("<tr>");
